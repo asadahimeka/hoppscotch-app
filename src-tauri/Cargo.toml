@@ -20,6 +20,7 @@ serde = { version = "1.0", features = ["derive"] }
 tauri = { version = "1.2.0", features = ["api-all", "devtools", "http-multipart"] }
 # see https://github.com/tauri-apps/tauri/discussions/3638, https://github.com/tauri-apps/tauri/discussions/3059
 # tauri = { git = "https://github.com/tauri-apps/tauri.git", branch = "dev", features = ["devtools", "dialog-all", "macos-private-api", "path-all", "process-exit", "process-relaunch", "shell-open", "window-all"] }
+tauri-plugin-window-state = { git = "https://github.com/tauri-apps/plugins-workspace", branch = "dev" }
 
 [features]
 # by default Tauri runs in production mode

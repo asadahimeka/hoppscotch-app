@@ -57,11 +57,12 @@
     },
     "windows": [
       {
-        "title": "hoppscotch app",
-        "width": 800,
-        "height": 600,
+        "title": "Hoppscotch",
+        "width": 1280,
+        "height": 800,
         "resizable": true,
-        "fullscreen": false
+        "fullscreen": false,
+        "center": true
       }
     ],
     "security": {
